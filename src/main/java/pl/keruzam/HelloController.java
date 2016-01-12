@@ -10,4 +10,9 @@ public class HelloController {
 	public String hello() {
 		return "<h1>SpringBoot Kickstart</h1>";
 	}
+	
+	@RequestMapping("/")
+	public String status() {
+		return "OK";
+	}
 }
